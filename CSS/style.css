@@ -34,10 +34,13 @@ body{
   background-color: #FFF;
   width: 360px;
   height: 340px;
-  margin-left: auto;
-  margin-right: auto;
+  
+  
   position: relative;
-  top:150px;
+  /*top:315px;*/
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
  
   border-radius: 30px;
 }
@@ -57,10 +60,11 @@ p{
 }
 
 .victor{
-  width: 26%;
+  width: 96px;
   border-radius: 100%;
   position: relative;
   bottom:50px;
+  
 }
 
 .objetos{
